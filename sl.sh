@@ -17,6 +17,8 @@ sudo killall -9 python3 || echo "python was not running."
 # start jack server
 
 # this line should also be in ~/.jackdrc, because if the below line fails, sooperlooper will start its own jackd using the config in ~/.jac
+# for pi zero use -p512
+# for pi zero 2 use -p256 (for spark go, -p128 seemed to work but saw xruns on Spark Mini) 
 /usr/bin/jackd --realtime -P95 -t2000 -dalsa -r44100 -p256 -n3 -dhw:USB &
 sudo sh -c "echo timer > /sys/class/leds/ACT/trigger"
 sleep 3
