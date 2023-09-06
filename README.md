@@ -23,4 +23,9 @@ Ingredients
   TODO
   need to install python dependencies 
   sudo pip3 install pyhton-osc
+
+
+  NOTE boot time is long Pi Zero 20-30 secs
+  Pi 2 Zero <20 secs (networking is still enables to allow ssh)
+  for me 20 secs is not a big deal for practice and totally portable 
   
