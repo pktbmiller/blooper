@@ -17,7 +17,10 @@ blue = LED(25)
 red = LED(23)
 
 newstate = 0
-
+# this handle new state of sooperlooper sent via osc
+# there is a bit of overkill in setting Leds and next behavior 
+# for the button since I would witness strange behavior that I could not
+# reproduce while debugging
 def state_handler(address, *args):
      global newstate 
      newstate = args[2]
@@ -56,6 +59,12 @@ ip = "0.0.0.0"
 port = 9959
 buttons = [{"but":Button(5),  "state": False, "up":0, "down":0, "count":0, "cmd":"record", "longcmd":None}]
 
+# ended up with low-tech approach since Button class
+# async handlers proved unreliable 
+# basically loop runs every 10ms
+# debounce and long-press and double-press are 
+# coded in the loop with simple counts through the loop
+# kinda cheesy but seems way more reliable
 async def loop():
   global newstate
   # get then intial state of button so that we can use no or nc switch
