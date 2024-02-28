@@ -16,23 +16,27 @@ Ingredients
 
   3 boot up and login via ssh
 
-  4 Install jack2 
+  4 Disable pi internal audio card
 
-    sudo apt-get install jack2
+    edit /config.tx - comment out line for bcm chip
 
-  5 Install sooperlooper
+  5 Install jack2 
+
+    sudo apt-get install jackd
+
+  6 Install sooperlooper
  
     sudo apt-get install sooperlooper
     
-  6 Copy sl.sh and oscb1button.py to home/sll directory
+  7 Copy sl.sh and oscb1button.py to home/sll directory
   
-  7 use OTG cable and USB-C cable to connect to Mini or Go
+  8 use OTG cable and USB-C cable to connect to Mini or Go
   
-  8 Make sure spark is powered on
+  9 Make sure spark is powered on
   
-  9 cd sll directory
+  10 cd sll directory
   
-  10 run ./sl.sh
+  11 run ./sl.sh
   
   TODO
   
