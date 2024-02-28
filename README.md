@@ -1,4 +1,4 @@
-# sparklooper
+# sparklooper (AKA blooper)
 Looper for Positive Grid Spark amps using Raspberry Pi
 
 Tested on Raspberry Pi Zero W and Pi Zero 2 W
