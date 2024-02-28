@@ -21,6 +21,8 @@ Ingredients
   4 Disable pi internal audio card
 
     edit /config.tx - comment out line for bcm chip
+    dtparam=audio=on
+    
 
   5 Install jack2 
 
