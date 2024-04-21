@@ -1,4 +1,4 @@
-# sparklooper (AKA blooper)
+# blooper (Spark , Katana)
 [Demo video](https://youtu.be/kttswfzxGsI)
 
 Looper for Positive Grid Spark amps using Raspberry Pi
