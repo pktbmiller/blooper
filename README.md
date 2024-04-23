@@ -40,7 +40,7 @@ Ingredients
   
   10 cd sll directory
   
-  11 run ./sl.sh
+  11 run ./sl.sh for Spark (or kat.sh for Katana GO)
   
   TODO
   
