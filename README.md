@@ -50,6 +50,9 @@ Ingredients
   
   sudo pip3 install pyhton-osc
 
+  NOTE 
+  For Katana:GO midi you will need mido for python and this will need python-rtmidi for the backend
+
 
   NOTE boot time is long Pi Zero 20-30 secs
   
