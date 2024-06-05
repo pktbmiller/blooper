@@ -41,6 +41,7 @@ jack_connect sooperlooper:common_out_1 system:playback_1 || echo "error connecti
 jack_connect sooperlooper:common_out_2 system:playback_2 || echo "error connecting audio (2)"
 
 sudo sh -c "echo heartbeat  > /sys/class/leds/ACT/trigger"
-sudo python3 /home/pm04/sll/oscb1button.py &
+#sudo python3 /home/pm04/sll/oscb1button.py &
+sudo python3 /home/pm04/sll/katbut.py &
 sudo sh -c "echo none > /sys/class/leds/ACT/trigger"
 
