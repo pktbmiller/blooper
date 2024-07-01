@@ -3,8 +3,7 @@
 
 [Demo video KATANA GO](https://youtu.be/Ww5pN00mOyM)
 
-[Demo video KATANA GO looper and midi via USB]
-(https: //youtu.be/pG_9Fyd1Ogk?si=JmPXsyHtXOzJxmL5)
+[Demo video KATANA GO with midi](https://youtu.be/pG_9Fyd1Ogk?si=z44RMnIRAfq-_Du4)
 
 Looper for Positive Grid Spark amps using Raspberry Pi
 
